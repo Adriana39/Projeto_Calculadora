@@ -13,3 +13,4 @@
     <p>Me arrisquei a implementar o sistema de ligar e desligar a calculadora (ON/OFF).
     Aprendi a definir e atualizar o estado da calculadora (isOn), garantindo que os botões só funcionem quando ativada.
     Adicionou uma mensagem de orientação quando a calculadora está desligada.</p>
+    <img src="" alt="">
