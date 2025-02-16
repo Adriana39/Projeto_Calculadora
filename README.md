@@ -1,5 +1,5 @@
 <h2>📝 Resumo do Aprendizado com a Criação da Calculadora</h2>
-<img src="https://github.com/Adriana39/Projeto_Calculadora/blob/main/assets/calc2.png">
+<img src="https://github.com/Adriana39/Projeto_Calculadora/blob/main/assets/calcu3.png">
 
     <p>Ao desenvolver essa calculadora, eu me aprofundei nos conhecimentos em HTML, CSS e JavaScript, explorei os conceitos fundamentais do desenvolvimento web.<br>Aqui estão os principais aprendizados:</p>
     
