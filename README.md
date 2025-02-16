@@ -1,4 +1,6 @@
 <h2>📝 Resumo do Aprendizado com a Criação da Calculadora</h2>
+<img src="https://github.com/Adriana39/Projeto_Calculadora/blob/main/assets/img%20calcu.png">
+
     <p>Ao desenvolver essa calculadora, eu me aprofundei nos conhecimentos em HTML, CSS e JavaScript, explorei os conceitos fundamentais do desenvolvimento web.<br>Aqui estão os principais aprendizados:</p>
     
     <h3>🎨 1. Estruturação da Interface (HTML & CSS)</h3>
@@ -13,4 +15,4 @@
     <p>Me arrisquei a implementar o sistema de ligar e desligar a calculadora (ON/OFF).
     Aprendi a definir e atualizar o estado da calculadora (isOn), garantindo que os botões só funcionem quando ativada.
     Adicionou uma mensagem de orientação quando a calculadora está desligada.</p>
-    <img src="" alt="">
+    
