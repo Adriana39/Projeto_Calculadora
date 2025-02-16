@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎯 Calculadora Online - Simples e Eficiente</h1>
+    
+    <div class="Calculadora">
+        <input type="text" id="display" disabled>
+        <br>
+        <button onclick="turnOff()" id="off">OFF</button>
+        <button onclick="turnOn()" id="on">ON</button>
+        <button onclick="appendToDisplay('m-')">M-</button>
+        <button onclick="appendToDisplay('m+')">M+</button>
+        <button onclick="appendToDisplay('/')" id="button">/</button>
+        <br>
+        <button onclick="appendToDisplay('%')">%</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('*')" id="button">*</button>
+        <br>
+        <button onclick="appendToDisplay('#')">#</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')" id="button">-</button>
+        <br>
+        <button onclick="clearLast()">C</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('+')" id="button">+</button>
+        <br>
+        <button onclick="clearAll()">AC</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="appendToDisplay(',')">,</button>
+        <button onclick="calculateResult('=')" id="button">=</button>     
+
+
+    </div>
+
+    <h2>📝 Resumo do Aprendizado com a Criação da Calculadora</h2>
+    <p>Ao desenvolver essa calculadora, você aprofundou seus conhecimentos em HTML, CSS e JavaScript, explorando conceitos fundamentais do desenvolvimento web. Aqui estão os principais aprendizados:</p>
+    
+    <h3>🎨 1. Estruturação da Interface (HTML & CSS)</h3>
+    <p>Criou uma interface simples e funcional usando HTML.
+    Aprendeu a estilizar elementos com CSS, ajustando cores, tamanhos e alinhamento.
+    Implementou um display dinâmico que muda de cor dependendo do estado da calculadora.</p>
+    <h3>⚙️ 2. Lógica de Programação com JavaScript</h3>
+    <p>Manipulou o DOM (Document Object Model) para atualizar dinamicamente o display.
+    Implementou funções para adicionar números e operadores, calcular resultados e limpar valores.
+    Aprendeu a usar a função eval() para processar expressões matemáticas.</p>
+    <h3>🖥️ 3. Funcionalidade Extra com Eventos e Estado</h3>
+    <p>Implementou o sistema de ligar e desligar a calculadora (ON/OFF).
+    Aprendeu a definir e atualizar o estado da calculadora (isOn), garantindo que os botões só funcionem quando ativada.
+    Adicionou uma mensagem de orientação quando a calculadora está desligada.</p>
+  
+     
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
